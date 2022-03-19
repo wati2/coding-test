@@ -7,7 +7,7 @@
 
 inputWord = list(input())
 
-a_to_z = list(map(chr, range(ord('a'),ord('z'))))
+a_to_z = list(map(chr, range(ord('a'),ord('z')+1)))
 
 result = []
 resultAsString =""
