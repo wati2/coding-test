@@ -15,7 +15,6 @@ myDictionary = dict.fromkeys(a_to_z,0)
 for oneChar in testWord:
     myDictionary[oneChar] += 1
 
-print(myDictionary)
 max_key = max(myDictionary, key=myDictionary.get)
 max_value = max(myDictionary.values())
 
